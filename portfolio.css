@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin:0 auto;
+	font-family: 'Major Mono Display';
+}
+
+header {
+	color: #ffffff;
+	background-color: #EF1B1B;
+	opacity: 80%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.name {
+	font-size: 100px;
+	padding: 15px;
+	border: white solid 1px;
+	
+}
+
+.links a {
+	font-size: 50px;
+	color: #ffffff;
+	text-decoration: none;
+}
