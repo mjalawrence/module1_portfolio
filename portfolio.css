@@ -5,6 +5,7 @@
 body {
 	margin:0 auto;
 	font-family: 'Major Mono Display';
+	background-color: #C8C8C8;
 }
 
 header {
@@ -39,8 +40,69 @@ header {
 	color: #C8C8C8;
 	background-color: #C8C8C8;
 	height: 90px;
-	width: 950px;
+	width: 900px;
 	position: absolute;
 	top: 122px;
 	right: 0%;
 }
+
+.intro {
+	color: #ffffff;
+	background-color: #EF1B1B;
+	opacity: 80%;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	margin: 20px 300px 20px 20px;
+    object-fit: cover;
+    border-radius: 1%;
+}
+
+.intro h1 {
+	font-size: 60px;
+}
+
+.intro p {
+	font-size: 30px;
+}
+
+.profile {
+	border: solid;
+    object-fit: cover;
+    border-radius: 50%;
+	margin: 20px;
+	width: 500px;
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
