@@ -21,7 +21,6 @@ header {
 	font-size: 70px;
 	padding: 15px;
 	border: white solid 1px;
-	
 }
 
 .links {
@@ -146,7 +145,6 @@ ul {
     object-fit: cover;
     border-radius: 1%;
 	text-align: center;
-	
 }
 
 .contact h1 {
@@ -156,7 +154,6 @@ ul {
 	border: white solid 1px;
 	font-size: 70px;
 	display: inline;
-	
 }
 
 form {
@@ -194,21 +191,7 @@ form .message {
 	height: 100px;
 	margin-bottom: 40px;
 }
-/*form {
-	display: block;
-	text-align: center;
-}
 
-label {
-	display: block;
-}
-
-input {
-	display: flex;
-	text-align: center;
-	
-}
-*/
 
 
 
