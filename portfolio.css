@@ -39,7 +39,7 @@ header {
 	color: #C8C8C8;
 	background-color: #C8C8C8;
 	height: 90px;
-	width: 900px;
+	width: 60%;
 	position: absolute;
 	top: 122px;
 	right: 0%;
@@ -193,11 +193,58 @@ form .message {
 }
 
 
+@media screen and (max-width: 1270px) {
+	.gray__box {
+		color: #C8C8C8;
+		background-color: #C8C8C8;
+		height: 212px;
+		width: 30%;
+		position: absolute;
+		top: 0%;
+		right: 0%;
+	}
+	
+	.links {
+		margin-right: 500px;
+	}
+}
 
 
+@media screen and (max-width: 1110px) {
+	.gray__box {
+		opacity: 0%;
+	}
+	
+	
+@media screen and (max-width: 800px) {
+	header {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.name {
+		margin-bottom: 10px;
+	}
+	
+	.links {
+		display: inline;
+		margin: 0px;
+	}
+	
+	.links a {
+		display: inline;
+		font-size: 30px;
+		padding: 0;
+	}
+}
 
-
-
+@media screen and (max-width: 550px) {	
+	.links a {
+		display: inline;
+		font-size: 25px;
+		padding: 0;
+	}
+}
 
 
 
