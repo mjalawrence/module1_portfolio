@@ -218,6 +218,11 @@ form .message {
 	.links {
 		margin-right: 500px;
 	}
+	
+	.intro__text p {
+			font-size: 37px;
+		}
+		
 }
 
 @media screen and (max-width: 1185px) {
@@ -230,7 +235,12 @@ form .message {
 @media screen and (max-width: 1125px) {
 	.intro {	
 			margin: 20px 100px 20px 20px;
-		}		
+		}
+		
+	.intro__text p {
+			font-size: 35px;
+		}
+		
 	.gray__box {
 		width: 20%;
 	}
@@ -238,24 +248,39 @@ form .message {
 }
 
 @media screen and (max-width: 1035px) {
-	body {
-		background-color: black;
+	.intro__text p {
+		font-size: 30px;
 	}
 }
-
-
 
 
 @media screen and (max-width: 970px) {
 	.gray__box {
 			width: 10%;
 	}	
+	
+	.intro {
+		margin: 20px 50px 20px 20px;
+	}
+	
+	.intro h1 {
+			margin: 10px;
+			font-size: 60px;
+	}
 }
 
 @media screen and (max-width: 880px) {
 	.gray__box {
 			opacity: 0%;
 	}	
+	
+	.intro h1 {
+			font-size: 60px;
+	}
+	
+	.intro {
+		margin: 20px;
+	}
 }	
 	
 @media screen and (max-width: 800px) {
@@ -280,9 +305,29 @@ form .message {
 		padding: 0;
 	}
 	
-	.gray__box {
-			opacity: 0%;
-	}	
+	.intro {
+		margin: 20px;
+	}
+	
+	.intro h1 {
+		font-size: 50px;
+	}
+	
+	.intro__text p {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 650px) {	
+	
+	.intro h1 {
+		
+		font-size: 40px;
+	}
+	
+	.intro__text p {
+		font-size: 20px;
+	}
 }
 
 
@@ -291,6 +336,14 @@ form .message {
 		display: inline;
 		font-size: 25px;
 		padding: 0;
+	}
+	
+	.intro h1 {
+		font-size: 30px;
+	}
+	
+	.intro__text p {
+		font-size: 17px;
 	}
 }
 
