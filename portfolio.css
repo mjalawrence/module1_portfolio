@@ -81,7 +81,7 @@ header {
 	text-align: center;
 	list-style-position: inside;
 	opacity: 80%;
-	padding: 50px 30px 30px 30px;
+	padding: 50px 30px 20px 30px;
 	margin: 20px 200px 20px 20px;
     object-fit: cover;
     border-radius: 1%;
@@ -128,13 +128,30 @@ ul {
 	align-items: center;
 }
 
+.portfolio__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 40px;
+}
+
+.port__box {
+	border: solid 0.5px white;
+	margin: 10px;
+	padding: 10px;
+}
+
+.port__description {
+	font-size: 20px;
+	margin-top: 5px;
+	text-align: left;
+}
+
 .portfolio__image {
 	padding: 10px;
-	margin-top: 40px;
-	margin-bottom: 20px;
-	border: solid white 10px;
-	height: 45%;
-	width: 45%;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	border: solid white 5px;
+	width: 100%;
 	object-fit: scale-down;
 }
 
@@ -222,6 +239,13 @@ form .message {
 	.intro__text p {
 			font-size: 37px;
 		}
+	.about {	
+		margin: 20px 150px 20px 20px;
+	}
+	
+	form {
+		margin: 60px 100px 20px 100px;
+	}
 		
 }
 
@@ -233,18 +257,42 @@ form .message {
 
 
 @media screen and (max-width: 1125px) {
-	.intro {	
-			margin: 20px 100px 20px 20px;
-		}
-		
-	.intro__text p {
-			font-size: 35px;
-		}
 		
 	.gray__box {
 		width: 20%;
 	}
 	
+	.intro {	
+			margin: 20px 150px 20px 20px;
+		}
+		
+	.intro__text p {
+			font-size: 35px;
+		}
+	
+	.about {	
+		margin: 20px 100px 20px 20px;
+	}
+	
+	.portfolio {
+		margin: 20px 50px 20px 20px;
+	}
+	
+	.portfolio__content {
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	.port__description {
+		font-size: 20px;
+	}
+	
+	form {
+		margin: 60px 50px 20px 50px;
+	}
+	
+	.about li {
+		font-size: 35px;
+	}
 }
 
 @media screen and (max-width: 1035px) {
@@ -256,16 +304,32 @@ form .message {
 
 @media screen and (max-width: 970px) {
 	.gray__box {
-			width: 10%;
+		width: 10%;
 	}	
 	
 	.intro {
-		margin: 20px 50px 20px 20px;
+		margin: 20px 85px 20px 20px;
 	}
 	
 	.intro h1 {
-			margin: 10px;
-			font-size: 60px;
+		margin: 10px;
+		font-size: 60px;
+	}
+	
+	.about {	
+		margin: 20px 70px 20px 20px;
+	}
+	
+	.portfolio {
+		margin: 20px 50px 20px 20px;
+	}
+	
+	.port__description {
+		font-size: 15px;
+	}
+	
+	.about li {
+		font-size: 30px;
 	}
 }
 
@@ -279,6 +343,14 @@ form .message {
 	}
 	
 	.intro {
+		margin: 20px;
+	}
+	
+	.about {	
+		margin: 20px;
+	}
+	
+	.portfolio {
 		margin: 20px;
 	}
 }	
@@ -316,6 +388,28 @@ form .message {
 	.intro__text p {
 		font-size: 25px;
 	}
+	
+	.about {
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+	}
+	
+	.about h1 {
+		font-size: 60px;
+	}
+	
+	.about li {
+		font-size: 25px;
+	}
+	
+	.portfolio h1 {
+		font-size: 60px;
+	}
+	
+	.contact h1 {
+		font-size: 60px;
+	}
 }
 
 @media screen and (max-width: 650px) {	
@@ -328,7 +422,42 @@ form .message {
 	.intro__text p {
 		font-size: 20px;
 	}
+	
+	.about h1 {
+		font-size: 50px;
+	}
+	
+	.about li {
+		font-size: 20px;
+	}
+	
+	.portfolio h1 {
+		font-size: 50px;
+	}
+	
+	.portfolio__content {
+		grid-template-columns: 1fr;
+	}
+	
+	.port__description {
+		font-size: 20px;
+	}
+	
+	.contact h1 {
+		font-size: 50px;
+	}
 }
+
+
+@media screen and (max-width: 560px) {	
+
+	.about h1 {
+		font-size: 40px;
+	}
+	
+	.about li {
+		font-size: 15px;
+	}
 
 
 @media screen and (max-width: 550px) {	
@@ -344,6 +473,18 @@ form .message {
 	
 	.intro__text p {
 		font-size: 17px;
+	}
+	
+	form {
+		margin: 60px 20px 20px 20px;
+	}
+	
+	.portfolio h1 {
+		font-size: 40px;
+	}
+	
+	.contact h1 {
+		font-size: 40px;
 	}
 }
 
