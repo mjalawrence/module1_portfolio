@@ -36,7 +36,6 @@ header {
 }
 
 .gray__box {
-	color: #C8C8C8;
 	background-color: #C8C8C8;
 	height: 90px;
 	width: 60%;
@@ -44,6 +43,68 @@ header {
 	top: 122px;
 	right: 0%;
 }
+
+/* piping party begins */
+
+.about__pipe1 {
+	background-color: #EF1B1B;
+	height: 90px;
+	width: 8px;
+	position: absolute;
+	top: 120px;
+	right: 50%;
+}
+
+.port__pipe1 {
+	background-color: #EF1B1B;
+	height: 60px;
+	width: 8px;
+	position: absolute;
+	top: 120px;
+	right: 28%;
+}
+
+.contact__pipe1 {
+	background-color: #EF1B1B;
+	height: 30px;
+	width: 8px;
+	position: absolute;
+	top: 120px;
+	right: 10%;
+}
+
+.about__pipe2 {
+	background-color: #EF1B1B;
+	height: 8px;
+	width: 525px;
+	position: absolute;
+	/*top: 200px;
+	right: 19%; */
+	top: 82px;
+	right: -6500%;
+}
+/* 
+.port__pipe2 {
+	background-color: #EF1B1B;
+	height: 60px;
+	width: 8px;
+	position: absolute;
+	top: 202px;
+	right: 28%;
+} */
+
+.contact__pipe2 {
+	background-color: #EF1B1B;
+	height: 30px;
+	width: 8px;
+	position: absolute;
+	top: 120px;
+	right: 10%;
+}
+
+
+
+/* piping party ends */
 
 .intro {
 	color: #ffffff;
