@@ -10,8 +10,7 @@ body {
 
 header {
 	color: #ffffff;
-	background-color: #EF1B1B;
-	opacity: 80%;
+	background-color: #D8544B;
 	display: flex;
 	justify-content: space-between;
 	padding: 20px;
@@ -46,20 +45,20 @@ header {
 
 .intro {
 	color: #ffffff;
-	background-color: #EF1B1B;
-	opacity: 80%;
+	background-color: #D8544B;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	padding: 30px;
+	padding-left: 30px;
 	margin: 20px 300px 20px 20px;
     object-fit: cover;
     border-radius: 1%;
 	position: relative;
+	align-items: center;
 }
 
 .intro__pipe {
 	position: absolute;
-	background-color: #EF1B1B;
+	background-color: #D8544B;
 	height: 29px;
 	width: 8px;
 	top: -20px;
@@ -67,11 +66,15 @@ header {
 }
 
 .intro h1 {
-	font-size: 60px;
+	font-size: 80px;
 }
 
 .intro p {
 	font-size: 35px;
+}
+
+.photo__contain {
+	text-align: center;
 }
 
 .profile__picture {
@@ -83,13 +86,11 @@ header {
 	object-fit: scale-down;
 }
 
-
 .about {
 	color: #ffffff;
-	background-color: #EF1B1B;
+	background-color: #D8544B;
 	text-align: center;
 	list-style-position: inside;
-	opacity: 80%;
 	padding: 50px 30px 20px 30px;
 	margin: 20px 200px 20px 20px;
     object-fit: cover;
@@ -98,16 +99,16 @@ header {
 }
 
 .about__pipe1 {
-	background-color: #EF1B1B;
-	height: 662px;
+	background-color: #D8544B;
+	height: 594px;
 	width: 8px;
 	position: absolute;
-	top: -622px;
+	top: -582px;
 	right: 0%;
 }
 
 .about__pipe2 {
-	background-color: #EF1B1B;
+	background-color: #D8544B;
 	height: 8px;
 	width: 6500%;
 	position: absolute;
@@ -116,7 +117,7 @@ header {
 }
 
 .about__pipe3 {
-	background-color: #EF1B1B;
+	background-color: #D8544B;
 	height: 86px;
 	width: 8px;
 	position: absolute;
@@ -146,9 +147,8 @@ ul {
 
 .portfolio {
 	color: #ffffff;
-	background-color: #EF1B1B;
+	background-color: #D8544B;
 	text-align: center;
-	opacity: 80%;
 	padding: 50px 30px 30px 30px;
 	margin: 20px 100px 20px 20px;
     object-fit: cover;
@@ -157,16 +157,16 @@ ul {
 }
 
 .port__pipe1 {
-	background-color: #EF1B1B;
-	height: 1210px;
+	background-color: #D8544B;
+	height: 1160px;
 	width: 8px;
 	position: absolute;
-	top: -1185px;
+	top: -1145px;
 	right: 0%;
 }
 
 .port__pipe2 {
-	background-color: #EF1B1B;
+	background-color: #D8544B;
 	height: 8px;
 	width: 3700%;
 	position: absolute;
@@ -175,7 +175,7 @@ ul {
 } 
 
 .port__pipe3 {
-	background-color: #EF1B1B;
+	background-color: #D8544B;
 	height: 53px;
 	width: 8px;
 	position: absolute;
@@ -222,8 +222,7 @@ ul {
 
 .contact {
 	color: #ffffff;
-	background-color: #EF1B1B;
-	opacity: 80%;
+	background-color: #D8544B;
 	padding: 50px 30px 30px 30px;
 	margin: 20px 20px 20px 20px;
     object-fit: cover;
@@ -233,16 +232,16 @@ ul {
 }
 
 .contact__pipe1 {
-	background-color: #EF1B1B;
-	height: 2180px;
+	background-color: #D8544B;
+	height: 2110px;
 	width: 8px;
 	position: absolute;
-	top: -2140px;
+	top: -2100px;
 	right: 0%;
 }
 
 .contact__pipe2 {
-	background-color: #EF1B1B;
+	background-color: #D8544B;
 	height: 8px;
 	width: 1570%;
 	position: absolute;
@@ -251,7 +250,7 @@ ul {
 }
 
 .contact__pipe3 {
-	background-color: #EF1B1B;
+	background-color: #D8544B;
 	height: 33px;
 	width: 8px;
 	position: absolute;
@@ -303,6 +302,35 @@ form .message {
 	height: 100px;
 	margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1420px) {
+	.about__pipe1 {
+		height: 594px;
+		top: -564px;
+		background-color: #D8544B;
+	}
+	
+	.port__pipe1 {
+		height: 1134px;
+		top: -1127px;
+		background-color: #D8544B;
+	}
+	
+	.contact__pipe1 {	
+		height: 2094px;
+		top: -2074px;
+		background-color: #D8544B;
+	}
+}
+	
+@media screen and (max-width: 1380px) {
+	.contact__pipe1 {	
+		height: 2094px;
+		top: -2064px;
+		background-color: #D8544B;
+	}
+}
+	
 
 @media screen and (max-width: 1300px) {	
 	.intro {	
