@@ -44,73 +44,6 @@ header {
 	right: 0%;
 }
 
-/* piping party begins */
-
-.about__pipe1 {
-	background-color: #EF1B1B;
-	height: 90px;
-	width: 8px;
-	position: absolute;
-	top: 120px;
-	right: 50%;
-}
-
-.port__pipe1 {
-	background-color: #EF1B1B;
-	height: 60px;
-	width: 8px;
-	position: absolute;
-	top: 120px;
-	right: 28%;
-}
-
-.contact__pipe1 {
-	background-color: #EF1B1B;
-	height: 30px;
-	width: 8px;
-	position: absolute;
-	top: 120px;
-	right: 10%;
-}
-
-.about__pipe2 {
-	background-color: #EF1B1B;
-	height: 8px;
-	width: 6500%;
-	position: absolute;
-	top: 82px;
-	right: -6500%;
-}
-
-.about__pipe3 {
-	background-color: black;
-	height: 640px;
-	width: 8px;
-	position: absolute;
-	top: 5px;
-	right: -2.7%;
-}
-/* 
-.port__pipe2 {
-	background-color: #EF1B1B;
-	height: 60px;
-	width: 8px;
-	position: absolute;
-	top: 202px;
-	right: 28%;
-} */
-
-.contact__pipe2 {
-	background-color: #EF1B1B;
-	height: 30px;
-	width: 8px;
-	position: absolute;
-	top: -1px;
-	right: 10%;
-}
-
-/* piping party ends */
-
 .intro {
 	color: #ffffff;
 	background-color: #EF1B1B;
@@ -121,6 +54,16 @@ header {
 	margin: 20px 300px 20px 20px;
     object-fit: cover;
     border-radius: 1%;
+	position: relative;
+}
+
+.intro__pipe {
+	position: absolute;
+	background-color: #EF1B1B;
+	height: 29px;
+	width: 8px;
+	top: -20px;
+	left: 0%;
 }
 
 .intro h1 {
@@ -128,7 +71,7 @@ header {
 }
 
 .intro p {
-	font-size: 40px;
+	font-size: 35px;
 }
 
 .profile__picture {
@@ -151,6 +94,34 @@ header {
 	margin: 20px 200px 20px 20px;
     object-fit: cover;
     border-radius: 1%;
+	position: relative;
+}
+
+.about__pipe1 {
+	background-color: #EF1B1B;
+	height: 662px;
+	width: 8px;
+	position: absolute;
+	top: -622px;
+	right: 0%;
+}
+
+.about__pipe2 {
+	background-color: #EF1B1B;
+	height: 8px;
+	width: 6500%;
+	position: absolute;
+	top: 0px;
+	right: 0%;
+}
+
+.about__pipe3 {
+	background-color: #EF1B1B;
+	height: 86px;
+	width: 8px;
+	position: absolute;
+	top: -80px;
+	left: 0%;
 }
 
 .about h1 {
@@ -182,6 +153,34 @@ ul {
 	margin: 20px 100px 20px 20px;
     object-fit: cover;
     border-radius: 1%;
+	position: relative;
+}
+
+.port__pipe1 {
+	background-color: #EF1B1B;
+	height: 1210px;
+	width: 8px;
+	position: absolute;
+	top: -1185px;
+	right: 0%;
+}
+
+.port__pipe2 {
+	background-color: #EF1B1B;
+	height: 8px;
+	width: 3700%;
+	position: absolute;
+	top: 0px;
+	right: 0%;
+} 
+
+.port__pipe3 {
+	background-color: #EF1B1B;
+	height: 53px;
+	width: 8px;
+	position: absolute;
+	top: -53px;
+	left: 0%;
 }
 
 .portfolio h1 {
@@ -230,6 +229,34 @@ ul {
     object-fit: cover;
     border-radius: 1%;
 	text-align: center;
+	position: relative;
+}
+
+.contact__pipe1 {
+	background-color: #EF1B1B;
+	height: 2180px;
+	width: 8px;
+	position: absolute;
+	top: -2140px;
+	right: 0%;
+}
+
+.contact__pipe2 {
+	background-color: #EF1B1B;
+	height: 8px;
+	width: 1570%;
+	position: absolute;
+	top: 0px;
+	right: 0%;
+}
+
+.contact__pipe3 {
+	background-color: #EF1B1B;
+	height: 33px;
+	width: 8px;
+	position: absolute;
+	top: -32px;
+	left: 0%;
 }
 
 .contact h1 {
