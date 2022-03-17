@@ -30,11 +30,52 @@ header {
 	font-size: 40px;
 	color: #ffffff;
 	text-decoration: none;
-	padding: 20px 20px 20px 20px;	
+	padding-left: 20px;	
+	padding-right: 20px;
 	border: 30px 0 0 0;
 }
 
 .gray__box {
+	background-color: #C8C8C8;
+	height: 90px;
+	width: 60%;
+	position: absolute;
+	top: 122px;
+	right: 0%;
+}
+
+.gray__box2 {
+	display: none;
+	background-color: #C8C8C8;
+	height: 90px;
+	width: 60%;
+	position: absolute;
+	top: 122px;
+	right: 0%;
+}
+
+.gray__box3 {
+	display: none;
+	background-color: #C8C8C8;
+	height: 90px;
+	width: 60%;
+	position: absolute;
+	top: 122px;
+	right: 0%;
+}
+
+.gray__box4 {
+	display: none;
+	background-color: #C8C8C8;
+	height: 90px;
+	width: 60%;
+	position: absolute;
+	top: 122px;
+	right: 0%;
+}
+
+.gray__box5 {
+	display: none;
 	background-color: #C8C8C8;
 	height: 90px;
 	width: 60%;
@@ -123,6 +164,18 @@ header {
 	position: absolute;
 	top: -80px;
 	left: 0%;
+}
+
+.about__pipes__set__two {
+	display: none;
+}
+
+.port__pipes__set__two {
+	display: none;
+}
+
+.contact__pipes__set__two {
+	display: none;
 }
 
 .about h1 {
@@ -296,6 +349,7 @@ input[type="submit"] {
 	border-radius: 5px;
 	margin: 0 auto;
 	display: block;
+	cursor: pointer;
 }
 
 form .message {
@@ -303,7 +357,147 @@ form .message {
 	margin-bottom: 40px;
 }
 
+
+
+/* MEDIA QUERIES - enter at own risk*/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000000000px) {
+	.about__pipes {
+		opacity: 0%;
+	}
+	
+	.port__pipes {
+		opacity: 0%;
+	}
+	
+	.contact__pipes {
+		opacity: 0%;
+	}
+
+	
+	.about__pipes__set__two {
+		position: absolute;
+		display: initial;
+		z-index: 10000;
+	}
+		
+		.about__pipe__set1 {
+			position: absolute;
+			display: initial;
+			z-index: 10000;
+			background-color: #D8544B;
+			height: 90px;
+			width: 8px;
+			right: 100px;
+			top: 71px;
+		}
+		
+		.about__pipe__set2 {
+			position: absolute;
+			background-color: #D8544B;
+			z-index: 10000;
+			height: 8px;
+			width: 493px;
+			right: -485px;
+			top: 83px;
+		}
+		
+		.about__pipe__set3 {
+			position: absolute;
+			background-color: #D8544B;
+			z-index: 10000;
+			height: 1000px;
+			width: 8px;
+			right: -0px;
+			top: 0px;
+		}
+		
+		.port__pipes__set__two {
+			position: absolute;
+			display: initial;
+			z-index: 10000;
+		}
+		
+		.port__pipe__set1 {
+			position: absolute;
+			display: initial;
+			z-index: 10000;
+			background-color: #D8544B;
+			height: 64px;
+			width: 8px;
+			right: 130px;
+			top: 71px;
+		}
+		
+		.port__pipe__set2 {
+			position: absolute;
+			background-color: #D8544B;
+			z-index: 10000;
+			height: 8px;
+			width: 305px;
+			right: -298px;
+			top: 56px;
+		}
+		
+		.port__pipe__set3 {
+			position: absolute;
+			background-color: #D8544B;
+			z-index: 10000;
+			height: 1530px;
+			width: 8px;
+			right: -0px;
+			top: 0px;
+		}
+		
+		.contact__pipes__set__two {
+			position: absolute;
+			display: initial;
+			z-index: 10000;
+		}
+		
+		.contact__pipe__set1 {
+			position: absolute;
+			display: initial;
+			z-index: 10000;
+			background-color: #D8544B;
+			height: 38px;
+			width: 8px;
+			right: 130px;
+			top: 71px;
+		}
+		
+		.contact__pipe__set2 {
+			position: absolute;
+			background-color: #D8544B;
+			z-index: 10000;
+			height: 8px;
+			width: 138px;
+			right: -130px;
+			top: 30px;
+		}
+		
+		.contact__pipe__set3 {
+			position: absolute;
+			background-color: #D8544B;
+			z-index: 10000;
+			height: 2500px;
+			width: 8px;
+			right: -0px;
+			top: 0px;
+		}
+	}
+	
 @media screen and (max-width: 1420px) {
+	
+	
+	
 	.about__pipe1 {
 		height: 594px;
 		top: -564px;
@@ -342,7 +536,68 @@ form .message {
 	}	
 }
 
+
+
+
+
+
+
+
+
+
+/* 30% gray box*/
+
+
 @media screen and (max-width: 1270px) {
+	
+	.about__pipes {
+		opacity: 100%;
+	}
+	
+	.port__pipes {
+		opacity: 100%;
+	}
+	
+	.contact__pipes {
+		opacity: 100%;
+	}
+	
+	.about__pipe__set1 {
+		opacity: 0%;
+	} 
+	
+	.about__pipe__set2 {
+		opacity: 0%;
+	} 
+	
+	.about__pipe__set3 {
+		opacity: 0%;
+	} 
+	
+	.port__pipe__set1 {
+		opacity: 0%;
+	} 
+	
+	.port__pipe__set2 {
+		opacity: 0%;
+	} 
+	
+	.port__pipe__set3 {
+		opacity: 0%;
+	} 
+	
+	.contact__pipe__set1 {
+		opacity: 0%;
+	} 
+	
+	.contact__pipe__set2 {
+		opacity: 0%;
+	} 
+	
+	.contact__pipe__set3 {
+		opacity: 0%;
+	} 
+	
 	.gray__box {
 		color: #C8C8C8;
 		background-color: #C8C8C8;
@@ -353,8 +608,118 @@ form .message {
 		right: 0%;
 	}
 	
+	.gray__box2 {
+		z-index: 10000;
+		display: initial;
+		background-color: #C8C8C8;
+		height: 66px;
+		width: 18%;
+		position: absolute;
+		top: 0px;
+		right: 0%;
+	}
+	
+	.gray__box3 {
+		z-index: 20000;
+		display: initial;
+		background-color: #C8C8C8;
+		height: 108px;
+		width: 149px;
+		position: absolute;
+		top: 0px;
+		right: 0%;
+	}
+	
+	.gray__box4 {
+		z-index: 30000;
+		display: initial;
+		background-color: #C8C8C8;
+		height: 146px;
+		width: 100px;
+		position: absolute;
+		top: 0px;
+		right: 0%;
+	}
+	
+	.gray__box5 {
+		z-index: 40000;
+		display: initial;
+		background-color: #C8C8C8;
+		height: 250px;
+		width: 20px;
+		position: absolute;
+		top: 0px;
+		right: 0%;
+	}
+	
 	.links {
 		margin-right: 500px;
+		position: relative;
+	}
+
+	.about__pipes__set__two {
+		display: initial;
+	}
+
+	.port__pipes__set__two {
+		display: initial;
+	}
+
+	.contact__pipes__set__two {
+		display: initial;
+	}
+	
+	.about__pipe__set1 {
+		opacity: 100%;
+		background-color: #D8544B;
+		
+		height: 8px;
+		width: 331px;
+		position: absolute;
+		top: 16px;
+		right: -451px;
+	}
+	
+	.port__pipe__set1 {
+		opacity: 100%;
+		background-color: #D8544B;
+		
+		height: 8px;
+		width: 392px;
+		position: absolute;
+		top: -22px;
+		right: -689px;
+	}
+	
+	
+	.contact__pipe__set1 {
+		opacity: 100%;
+		background-color: #D8544B;
+		
+		height: 8px;
+		width: 462px;
+		position: absolute;
+		top: 16px;
+		right: -521px;
+	}
+	
+	.about__pipe1 {
+		height: 785px;
+		top: -778px;
+		background-color: #D8544B;
+	}
+	
+	
+	.port__pipe1 {
+		height: 1350px;
+		top: -1316px;
+		background-color: #D8544B;
+	}
+	
+	.contact__pipe1 {	
+		height: 2160px;
+		top: -2150px;
+		background-color: #D8544B;
 	}
 	
 	.intro__text p {
@@ -367,7 +732,37 @@ form .message {
 	form {
 		margin: 60px 100px 20px 100px;
 	}
+	
+	.about__pipe2 {
+		display: none;
+		width: 128px;
+		top: 47px;
+		right: 0%;
+	}
+	
+	.about__pipe3 {
+	
+	}
+	
+	.about__pipes .about__pipe1 {
+		display: initial;
+	}
 		
+	.port__pipe2 {
+		display: none;
+	}
+	
+	.port__pipe3 {
+		display: none;
+	}
+	
+	.contact__pipe2 {
+		display: none;
+	}	
+	
+	.contact__pipe3 {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1185px) {
@@ -381,6 +776,31 @@ form .message {
 		
 	.gray__box {
 		width: 20%;
+	}
+	
+	.gray__box3 {
+		width: 99px;
+	}
+	
+	.gray__box4 {
+		width: 50px;
+	}
+	
+	.contact__pipe1 {
+		height: 2900px;
+		top:-2800px;
+	}
+	
+	.about__pipe__set1 {
+		width: 340px;
+	}
+	
+	.port__pipe__set1 {
+		width: 389px;
+	}
+	
+	.contact__pipe__set1 {
+		width: 520px;
 	}
 	
 	.intro {	
@@ -428,6 +848,15 @@ form .message {
 		width: 10%;
 	}	
 	
+	.gray__box2 {
+		width: 87px;
+		height: 66px;
+	}
+	
+	.gray__box3 {
+		width: 69px;
+		height: 108px;
+	}
 	.intro {
 		margin: 20px 85px 20px 20px;
 	}
@@ -452,12 +881,43 @@ form .message {
 	.about li {
 		font-size: 30px;
 	}
+	
+	.about__pipe1 {
+		height: 630px;
+		top: -600px;
+	}
+	
+	.port__pipe1 {
+		height: 1134px;
+		top: -1127px;
+	}
+	
+	.contact__pipe1 {	
+		height: 2335px;
+		top: -2329px;
+	}
 }
 
 @media screen and (max-width: 880px) {
 	.gray__box {
-			opacity: 0%;
+		display: none;
 	}	
+	
+	.gray__box2 {
+		display: none;
+	}
+	
+	.gray__box3 {
+		display: none;
+	}
+	
+	.gray__box4 {
+		display: none;
+	}
+	
+	.gray__box5 {
+		display: none;
+	}
 	
 	.intro h1 {
 			font-size: 60px;
@@ -473,6 +933,22 @@ form .message {
 	
 	.portfolio {
 		margin: 20px;
+	}
+	
+	.intro__pipe {
+		opacity: 0%;
+	}
+	
+	.about__pipes {
+		opacity: 0%;
+	}
+	
+	.port__pipes {
+		opacity: 0%;
+	}
+	
+	.contact__pipes {
+		opacity: 0%;
 	}
 }	
 	
@@ -508,6 +984,10 @@ form .message {
 	
 	.intro__text p {
 		font-size: 25px;
+	}
+	
+	.about__pipe__set1 {
+		display: none;
 	}
 	
 	.about {
@@ -577,10 +1057,12 @@ form .message {
 	}
 	
 	.about li {
-		font-size: 15px;
+		font-size: 20px;
 	}
+	
+	
 
-
+}
 @media screen and (max-width: 550px) {	
 	.links a {
 		display: inline;
@@ -590,6 +1072,12 @@ form .message {
 	
 	.intro h1 {
 		font-size: 30px;
+	}
+	
+	.about ul {
+		padding-right: 0;
+		padding-left: 0;
+		font-size: 15px;
 	}
 	
 	.intro__text p {
