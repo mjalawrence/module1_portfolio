@@ -1,3 +1,4 @@
+/* hey future me, before lunch on the last day i had to lie down for 10 minutes cus of how physically draining the stress of making the piping work was. */
 * {
 	box-sizing: border-box;
 }
@@ -357,146 +358,128 @@ form .message {
 	margin-bottom: 40px;
 }
 
-
-
-/* MEDIA QUERIES - enter at own risk*/
-
-
-
-
-
-
-
+/* ---------------------------------   MEDIA QUERIES - enter at own risk -------------------------------- */
 
 @media screen and (max-width: 1000000000px) {
-	.about__pipes {
-		opacity: 0%;
-	}
-	
-	.port__pipes {
-		opacity: 0%;
-	}
-	
+	.about__pipes,
+	.port__pipes,
 	.contact__pipes {
 		opacity: 0%;
 	}
 
-	
 	.about__pipes__set__two {
 		position: absolute;
 		display: initial;
 		z-index: 10000;
 	}
 		
-		.about__pipe__set1 {
-			position: absolute;
-			display: initial;
-			z-index: 10000;
-			background-color: #D8544B;
-			height: 90px;
-			width: 8px;
-			right: 100px;
-			top: 71px;
-		}
-		
-		.about__pipe__set2 {
-			position: absolute;
-			background-color: #D8544B;
-			z-index: 10000;
-			height: 8px;
-			width: 493px;
-			right: -485px;
-			top: 83px;
-		}
-		
-		.about__pipe__set3 {
-			position: absolute;
-			background-color: #D8544B;
-			z-index: 10000;
-			height: 1000px;
-			width: 8px;
-			right: -0px;
-			top: 0px;
-		}
-		
-		.port__pipes__set__two {
-			position: absolute;
-			display: initial;
-			z-index: 10000;
-		}
-		
-		.port__pipe__set1 {
-			position: absolute;
-			display: initial;
-			z-index: 10000;
-			background-color: #D8544B;
-			height: 64px;
-			width: 8px;
-			right: 130px;
-			top: 71px;
-		}
-		
-		.port__pipe__set2 {
-			position: absolute;
-			background-color: #D8544B;
-			z-index: 10000;
-			height: 8px;
-			width: 305px;
-			right: -298px;
-			top: 56px;
-		}
-		
-		.port__pipe__set3 {
-			position: absolute;
-			background-color: #D8544B;
-			z-index: 10000;
-			height: 1530px;
-			width: 8px;
-			right: -0px;
-			top: 0px;
-		}
-		
-		.contact__pipes__set__two {
-			position: absolute;
-			display: initial;
-			z-index: 10000;
-		}
-		
-		.contact__pipe__set1 {
-			position: absolute;
-			display: initial;
-			z-index: 10000;
-			background-color: #D8544B;
-			height: 38px;
-			width: 8px;
-			right: 130px;
-			top: 71px;
-		}
-		
-		.contact__pipe__set2 {
-			position: absolute;
-			background-color: #D8544B;
-			z-index: 10000;
-			height: 8px;
-			width: 138px;
-			right: -130px;
-			top: 30px;
-		}
-		
-		.contact__pipe__set3 {
-			position: absolute;
-			background-color: #D8544B;
-			z-index: 10000;
-			height: 2500px;
-			width: 8px;
-			right: -0px;
-			top: 0px;
-		}
+	.about__pipe__set1 {
+		position: absolute;
+		display: initial;
+		z-index: 10000;
+		background-color: #D8544B;
+		height: 90px;
+		width: 8px;
+		right: 100px;
+		top: 71px;
 	}
+		
+	.about__pipe__set2 {
+		position: absolute;
+		background-color: #D8544B;
+		z-index: 10000;
+		height: 8px;
+		width: 493px;
+		right: -485px;
+		top: 83px;
+	}
+		
+	.about__pipe__set3 {
+		position: absolute;
+		background-color: #D8544B;
+		z-index: 10000;
+		height: 1000px;
+		width: 8px;
+		right: -0px;
+		top: 0px;
+	}
+		
+	.port__pipes__set__two {
+		position: absolute;
+		display: initial;
+		z-index: 10000;
+	}
+		
+	.port__pipe__set1 {
+		position: absolute;
+		display: initial;
+		z-index: 10000;
+		background-color: #D8544B;
+		height: 64px;
+		width: 8px;
+		right: 130px;
+		top: 71px;
+	}
+		
+	.port__pipe__set2 {
+		position: absolute;
+		background-color: #D8544B;
+		z-index: 10000;
+		height: 8px;
+		width: 305px;
+		right: -298px;
+		top: 56px;
+	}
+		
+	.port__pipe__set3 {
+		position: absolute;
+		background-color: #D8544B;
+		z-index: 10000;
+		height: 1530px;
+		width: 8px;
+		right: -0px;
+		top: 0px;
+	}
+		
+	.contact__pipes__set__two {
+		position: absolute;
+		display: initial;
+		z-index: 10000;
+	}
+		
+	.contact__pipe__set1 {
+		position: absolute;
+		display: initial;
+		z-index: 10000;
+		background-color: #D8544B;
+		height: 38px;
+		width: 8px;
+		right: 130px;
+		top: 71px;
+	}
+		
+	.contact__pipe__set2 {
+		position: absolute;
+		background-color: #D8544B;
+		z-index: 10000;
+		height: 8px;
+		width: 138px;
+		right: -130px;
+		top: 30px;
+	}
+		
+	.contact__pipe__set3 {
+		position: absolute;
+		background-color: #D8544B;
+		z-index: 10000;
+		height: 2500px;
+		width: 8px;
+		right: -0px;
+		top: 0px;
+	}
+}
 	
 @media screen and (max-width: 1420px) {
-	
-	
 	
 	.about__pipe1 {
 		height: 594px;
@@ -518,6 +501,7 @@ form .message {
 }
 	
 @media screen and (max-width: 1380px) {
+	
 	.contact__pipe1 {	
 		height: 2094px;
 		top: -2064px;
@@ -525,8 +509,8 @@ form .message {
 	}
 }
 	
-
 @media screen and (max-width: 1300px) {	
+	
 	.intro {	
 		margin: 20px 250px 20px 20px;
 	}	
@@ -535,14 +519,6 @@ form .message {
 		object-fit: scale-down;
 	}	
 }
-
-
-
-
-
-
-
-
 
 
 /* 30% gray box*/
@@ -562,38 +538,20 @@ form .message {
 		opacity: 100%;
 	}
 	
-	.about__pipe__set1 {
-		opacity: 0%;
-	} 
-	
-	.about__pipe__set2 {
-		opacity: 0%;
-	} 
-	
+	.about__pipe__set1,
+	.about__pipe__set2,
 	.about__pipe__set3 {
 		opacity: 0%;
 	} 
 	
-	.port__pipe__set1 {
-		opacity: 0%;
-	} 
-	
-	.port__pipe__set2 {
-		opacity: 0%;
-	} 
-	
+	.port__pipe__set1, 
+	.port__pipe__set2,
 	.port__pipe__set3 {
 		opacity: 0%;
 	} 
 	
-	.contact__pipe__set1 {
-		opacity: 0%;
-	} 
-	
-	.contact__pipe__set2 {
-		opacity: 0%;
-	} 
-	
+	.contact__pipe__set1,
+	.contact__pipe__set2,
 	.contact__pipe__set3 {
 		opacity: 0%;
 	} 
@@ -691,11 +649,9 @@ form .message {
 		right: -689px;
 	}
 	
-	
 	.contact__pipe__set1 {
 		opacity: 100%;
 		background-color: #D8544B;
-		
 		height: 8px;
 		width: 462px;
 		position: absolute;
@@ -708,7 +664,6 @@ form .message {
 		top: -778px;
 		background-color: #D8544B;
 	}
-	
 	
 	.port__pipe1 {
 		height: 1350px;
@@ -723,8 +678,9 @@ form .message {
 	}
 	
 	.intro__text p {
-			font-size: 37px;
-		}
+		font-size: 37px;
+	}
+		
 	.about {	
 		margin: 20px 150px 20px 20px;
 	}
@@ -738,10 +694,6 @@ form .message {
 		width: 128px;
 		top: 47px;
 		right: 0%;
-	}
-	
-	.about__pipe3 {
-	
 	}
 	
 	.about__pipes .about__pipe1 {
@@ -804,12 +756,12 @@ form .message {
 	}
 	
 	.intro {	
-			margin: 20px 150px 20px 20px;
-		}
+		margin: 20px 150px 20px 20px;
+	}
 		
 	.intro__text p {
-			font-size: 35px;
-		}
+		font-size: 35px;
+	}
 	
 	.about {	
 		margin: 20px 100px 20px 20px;
@@ -920,7 +872,7 @@ form .message {
 	}
 	
 	.intro h1 {
-			font-size: 60px;
+		font-size: 60px;
 	}
 	
 	.intro {
@@ -1016,7 +968,6 @@ form .message {
 @media screen and (max-width: 650px) {	
 	
 	.intro h1 {
-		
 		font-size: 40px;
 	}
 	
@@ -1049,7 +1000,6 @@ form .message {
 	}
 }
 
-
 @media screen and (max-width: 560px) {	
 
 	.about h1 {
@@ -1059,10 +1009,8 @@ form .message {
 	.about li {
 		font-size: 20px;
 	}
-	
-	
-
 }
+
 @media screen and (max-width: 550px) {	
 	.links a {
 		display: inline;
@@ -1096,31 +1044,3 @@ form .message {
 		font-size: 40px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
